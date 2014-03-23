@@ -30,6 +30,8 @@ public class GamePhases : MonoBehaviour {
 	
 	void Update()
 	{
+		Screen.lockCursor = true;
+		
 		if (isPaused)
 		{
 			pausedTime += Time.deltaTime;
